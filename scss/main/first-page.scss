@@ -1,0 +1,102 @@
+.first-page-section{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  width: 100%;
+	height: 850px;
+  @media (max-width:768px) {
+    max-height: 700px;
+  }
+}
+.first-page-section__background{
+  width: 100%;
+	height: 100vh;
+  background: url("assets/img/start-page__background.svg") no-repeat;
+  background-size: contain;
+  @media (max-width:768px) {
+    max-height: 700px;
+  }
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+
+}
+.first-page-section__content-block{
+  display: flex;
+	flex-direction: column;
+	padding-top: 203px;
+}
+.first-page-section__header{
+  max-width: 780px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  @media (max-width:768px) {
+    color: gray;
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+.first-page-section__text-block{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 24px;
+  @media (max-width:1030px) {
+    color: gray;
+  }
+  @media (max-width:768px) {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.first-page-section__text-block__list{
+  margin-top: 10px;
+}
+.first-page-section__text-block__list-elem::before{
+  content: "-";
+  padding: 10px;
+}
+.first-page-section__text-block__header{
+  font-weight: 700;
+}
+.first-page-section__button-block{
+  margin-top: 80px;
+  display: flex;
+  gap: 30px;
+  @media (max-width:768px) {
+    flex-direction: column;
+    margin: 80px auto 0 auto;
+  }
+}
+.first-page-section__button{
+  width: 183px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  border: 1px solid #6F6D7B;
+  border-radius: 4px;
+}
+.button-blue{
+  color: #FFFFFF;
+  background: #3E9CDC;
+  border: 1px solid #FFFFFF;
+}
+@media (max-width:768px) {
+  .first-page-section{
+    height: 900px;
+  }
+  .first-page-section__background{
+    background-position: top 100px left 0;
+  }
+}

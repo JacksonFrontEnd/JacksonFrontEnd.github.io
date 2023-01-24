@@ -1,0 +1,21 @@
+.wrapper{
+	min-height: 100%;
+	background: rgba(16, 16, 29);
+}
+body._lock{
+	overflow: hidden
+}
+.content-block{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.font-weight-600{
+  font-weight: 600;
+}
+
+@import 'nullstyle.scss';
+@import 'colors.scss';
+@import 'main/header.scss';
+@import 'main/first-page.scss';
+@import 'main/second-page.scss';
+@import 'main/footer.scss'

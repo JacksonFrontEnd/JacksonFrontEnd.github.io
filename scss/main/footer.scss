@@ -1,0 +1,67 @@
+.footer{
+  background: #3D4050;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  align-items: center;
+  @media (max-width:768px) {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+.footer__logo{
+  display: flex;
+  margin-right: 40px;
+  @media (max-width:768px) {
+    margin: 0;
+  }
+}
+.footer__lorem{
+  text-transform: uppercase;
+}
+.footer__pay-block{
+  padding: 0 40px 0 42px;
+  border-left: 1px solid #C3C3C3;
+  border-right: 1px solid #C3C3C3;
+  display: flex;
+  gap: 40px;
+  @media (max-width:768px) {
+    padding: 40px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 1px solid #C3C3C3;
+    border-bottom: 1px solid #C3C3C3;
+    gap: 10px;
+  }
+}
+.text-with-img{
+  display: flex;
+  gap: 10px;
+}
+.text-with-img p{
+ width: 85px;
+}
+.footer__contact-block{
+  padding-left: 38px;
+  display: flex;
+  gap:30px;
+  @media (max-width:768px) {
+    padding: 20px 0;
+  }
+}
+.footer__contact-block a{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  display: flex;
+  gap: 13px;
+}
